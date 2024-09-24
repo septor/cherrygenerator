@@ -1,8 +1,9 @@
 @echo off
 setlocal enabledelayedexpansion
 
-set /p digits="Enter the digits (e.g., 02567): "
-set /p length="Enter the code length: "
+set /p digits=013469
+
+set /p length=8
 
 echo %digits% > digits.txt
 echo %length% > length.txt
